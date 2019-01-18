@@ -29,7 +29,7 @@ COMMENT ON COLUMN actor.sizes is '파일크기';
 COMMENT ON COLUMN actor.actor_sang is '배우 수상';
 COMMENT ON COLUMN actor.physical is '배우 신체';
 COMMENT ON COLUMN actor.actorwork is '배우 작품';
-COMMENT ON COLUMN actor.word is '검색어';
+COMMENT ON COLUMN actor.s_word is '검색어';
 
 2. 등록
 INSERT INTO actor(actorno, actorname, actorbrd, thumbs, files, sizes, actor_sang, physical, actorwork, s_word)
